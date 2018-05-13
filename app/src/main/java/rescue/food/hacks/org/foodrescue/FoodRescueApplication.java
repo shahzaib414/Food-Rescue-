@@ -12,7 +12,6 @@ public class FoodRescueApplication extends Application {
     public void onCreate() {
         super.onCreate();
         Realm.init(this);
-
         configuration = new RealmConfiguration.Builder().build();
         Realm.setDefaultConfiguration(configuration);
     }
